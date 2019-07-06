@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
+
+$narrow: 400px;
+$small: 650px;
+$medium: 960px;
+$wide: 1200px;
+
+//Add Color Palette
+$blue                   :#063542;
+$green                  :#45b29D;
+$yellow                 :#EFC94C;
+$orange                 :#E27A3F;
+$red                    :#DF4848;
+$pink                   :#CD0069;
+$purple                 :#6C71C4;
+$dark                   :#000000;
+$light                  :#FFFFFF;
+
+//color setting
+$color-primary          : $light;
+$color-secondary        :$dark;
+$color-third            :$yellow;
+
+
+$background-color        :$light;
+$type-default            :$dark;
+
+//nav config
+$nav-background          :$blue;
+$nav-foreground          :$light;
+$nav-hover               :$yellow;
+$nav-brand-Bg            :$red;
+
+
+//Header config
+$header-sub-gb            :$dark;
+
+//Font variables
+$font-family             :'Exo 2','Helvetica Neue',Helvetica , Arial , sans-serif;
+$size-thin          :200;
+$size-normal        :400;
+$size-bold          :600;
+$size-heavy         :800;
+
+//head configuration
+$head-font                :$size-thin 1.5rem/1.5rem $font-family;
+$head-color               :lighten($blue,20);
+$head-size                :$size-bold;
+
+//main configuration
+$main-font                :$size-thin 1rem/1rem $font-family;
+$main-weight              :$size-thin;
+
+$strong-weight            :$size-bold;
+
+

@@ -1,0 +1,20 @@
+//Compass imports
+@import "~compass-mixins/lib/compass";
+@import "~compass-mixins/lib/compass/reset";
+@import "~compass-mixins/lib/compass/css3/box-shadow";
+@import "~compass-mixins/lib/compass/css3/text-shadow";
+@import "~compass-mixins/lib/compass/css3/filter";
+@import "~compass-mixins/lib/compass/css3/flexbox";
+@import "~compass-mixins/lib/compass/css3/transition";
+//external Libraries
+@import "~susy/sass/susy";
+
+//core Partial
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+
+//import pages
+@import "modules/main_page/index";
+

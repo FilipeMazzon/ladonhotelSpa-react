@@ -1,0 +1,17 @@
+body {
+  font:$main-font;
+  background: $background-color;
+  color: $type-default;
+}
+h1,h2,h3,h4,h5,h6{
+  font: $head-font;
+  color: $head-color;
+  font-weight:$head-size;
+}
+strong {
+  font-weight: $strong-weight;
+}
+p{
+  font-weight: $main-weight;
+  padding-bottom: 10px;
+}

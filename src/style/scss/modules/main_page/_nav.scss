@@ -1,0 +1,53 @@
+header #nav {
+  @include clearFix;
+  @include background-image(linear-gradient(to top,lighten($nav-background,10),$nav-background));
+
+  .navbar{
+    width:100%;
+    .brand{
+      float:left;
+      font-weight:$size-bold;
+      font-family:$head-font;
+      text-align: center;
+      text-transform: uppercase;
+      background: $nav-brand-Bg;
+      a{
+        color:$nav-foreground;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        font-size: 1.5em;
+      }//a
+    }//brand
+    ul{
+      list-style-type:none;
+      width:100%;
+      li{
+        float:left;
+        a{
+          color:$nav-foreground;
+          font:$main-font;
+          font-size:1em;
+          display: inline-block;
+          padding: 10px 10px 10px 45px;
+          text-decoration:none;
+          //icons styles
+          background-size: 35px;
+          background-repeat: no-repeat;
+          background-position: 2px;
+
+          &.info { background-image: url('/images/icons/info.png');}
+          &.rooms { background-image: url('/images/icons/rooms.png');}
+          &.dining { background-image: url('/images/icons/dining.png');}
+          &.events { background-image: url('/images/icons/events.png');}
+          &.attractions { background-image: url('/images/icons/attractions.png');}
+          &:hover{
+            background-color:$nav-hover;
+            color:$color-primary;
+          }
+        }//a
+      }//li
+    }//ul
+  }//navbar
+}//header #nav
