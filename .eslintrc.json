@@ -1,0 +1,18 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "semi": "error",
+    "commentPattern": "^skip\\sdefault",
+    "allowElseIf": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
